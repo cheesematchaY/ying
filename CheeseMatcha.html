@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Cheese Matcha</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="js/flexslider.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+</head>
+
+<body data-spy="scroll" data-target="#myNavbar" data-offset="60"><!--滚动监听-->
+<header><!--头部，导航-->
+    <nav class="navbar navbar-default nav-static navbar-inverse navbar-fixed-top" id="myNavbar">
+       <div class="container"><!--汉堡包导航-->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <!--切换导航-->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <!--logo-->
+            <a href="#"><img src="img/logo.jpg" alt=""></a>
+        </div>
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse">
+       <ul class="nav navbar-nav">
+           <li class="dropdown" class="active"><!--下拉菜单触发器-->
+           <a href="#banner" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">芝士抹茶<span class="caret"></span></a>
+              <ul class="dropdown-menu" style="min-width:100%">
+               <li><a href="#">清香</a></li>
+               <li><a href="#">醇厚</a></li>
+               <li><a href="#">清新</a></li>
+               <li><a href="#">甜蜜</a></li>
+               </ul>
+           </li>
+           <li><a href="#introduction">抹茶介绍</a></li>
+           <li class="dropdown"><a href="#product" data-toggle="dropdown">产品系列<span class="caret"></span></a>
+              <ul class="dropdown-menu" style="min-width:100%">
+                  <li><a href="#">芝士抹茶</a></li>
+                  <li><a href="#">抹茶蛋糕</a></li>
+                  <li><a href="#">抹茶拿铁</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">其它抹茶</a></li>
+              </ul>
+           </li>
+           <li><a href="#contact">联系我们</a></li>
+       </ul>
+       <div class="navbar-right">
+          <a href="#"><h4><span class="bag_font">￥0.00<img src="img/bag.png" class="bag"></span></h4></a>
+       </div>
+       </div>
+    </div>
+        </nav>
+</header><!-- /header头部，导航End -->
+<section id="banner" class="container"><!--图片轮播-->
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+     <!--Wrapper for slides图片包装-->
+    <div class="carousel-inner" role="listbox"><!--轮播内容-->
+      <div class="item">
+        <img src="img/1.jpg" alt="">
+         <div class="carousel-caption"><!--幻灯片添加标题-->
+             <h5 class="text-info img-rounded">夏日抹茶饮料</h5>
+         </div>
+      </div>
+     <div class="item active">
+        <img src="img/2.jpg" alt="">
+         <div class="carousel-caption"><!--幻灯片添加标题-->
+             <h5 class="text-danger img-rounded">美味抹茶蛋糕</h5>
+         </div>
+      </div>
+      <div class="item">
+        <img src="img/3.jpg" alt="">
+         <div class="carousel-caption"><!--幻灯片添加标题-->
+             <h5 class="text-success img-rounded">抹茶千层饼</h5>
+         </div>
+      </div>
+      <div class="item">
+        <img src="img/4.jpg" alt="">
+         <div class="carousel-caption"><!--幻灯片添加标题-->
+             <h4 class="text-primary img-rounded">Matcha</h4>
+         </div>
+      </div>
+    </div>
+     <!--圆点控制按钮设置-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    </ol>
+    <!--圆点控制end-->
+    <!--左右控制按钮-->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+    </a>
+</div>
+</section>
+<!--图片轮播结束-->
+<section id="introduction" class="produce-box"><!--简介-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title"><!--章节标题-->
+                     <h2>cheese&nbsp;<span>matcha</span></h2>
+                     <img src="img/tx1.jpg">
+                     <p>Not every day cream cakes instead of long fat man</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.4s">
+              <div class="single-service">
+              <i class="fa" aria-hidden="true"><img src="img/bag.png"></i>
+              <h3>Indie pop</h3>
+              <p>抹茶隐约的清苦与淡淡的茶香<br>与芝士醇厚的奶香完美融合在一起<br>带来的不止是春天般赏心悦目的绿<br>更让芝士的厚重多了一丝清新</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.5s">
+              <div class="single-service">
+                <i class="fa" aria-hidden="true"><img src="img/bag.png"></i>
+                <h3>Cheese</h3>
+                <p>当奶油恋上芝士<br>香浓的爱意沉浸在芝士的丝滑里<br>却因同根生而被命运阻隔<br>于是这份爱恋少了些许甜腻多了一丝酸楚</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.6s">
+            <div class="single-service">
+              <i class="fa" aria-hidden="true"><img src="img/bag.png"></i>
+              <h3>Cake</h3>
+              <p>芝士蛋糕的做法都很简单<br>
+              无需专业的工具也不用烤箱<br>
+              备好材料搅拌均匀混合之后放入冰箱冷藏即可<br>
+              凝固成型的蛋糕清爽细腻柔滑</p>
+            </div>
+          </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.7s">
+          <div class="single-service">
+              <i class="fa" aria-hidden="true"><img src="img/bag.png"></i>
+              <h3>Matcha Poem</h3>
+              <p>碧云引风吹不断<br>白花浮光凝碗面<br>
+                 唐代诗人卢仝对抹茶的赞美<br>
+                 诗句中对抹茶泡沫的形状颜色做了描述和赞美
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.8s">
+            <div class="single-service">
+              <i class="fa" aria-hidden="true"><img src="img/bag.png"></i>
+              <h3>Matcha Secret</h3>
+              <p>不是艳绿的俗色<br>
+              而是素淡的青葱<br>
+              细细撒撒而柔和<br>
+              纯纯正正而甜蜜</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.9s">
+            <div class="single-service">
+              <i class="fa" aria-hidden="true"><img src="img/bag.png"></i>
+              <h3>Matcha Latte</h3>
+              <p>抹茶的味道可以这样形容<br>
+              雅致中带几分少女的娇俏不浓烈却足够迷人<br>
+              品一块芝士蛋糕或者饮一杯抹茶拿铁<br>
+              甜蜜里夹杂一丝微苦幸福的治愈感就这样袭来
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+<!--简介end-->
+<section id="series-products" class="series-products section">
+<!--series-products产品系列-->
+  <div class="container" id="product">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title">
+          <h2>cheese&nbsp;<span>matcha</span></h2>
+                     <img src="img/tx2.jpg">
+                     <p>Not every day cream cakes instead of long fat man</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <!--project Nav项目导航栏-->
+      <div class="series-menu fadeInLeft" data-duration="0.8s" data-delay="0.4s">
+        <ul class="p-nav">
+            <li class="all" data-filter="*">All</li>
+            <li class="zs" data-filter=".zs">芝士</li>
+            <li class="mc" data-filter=".mc">抹茶</li>
+            <li class="dg" data-filter=".dg">蛋糕</li>
+        </ul>
+      </div>
+      <!--项目导航栏结束-->
+    </div>
+  </div>
+  <div class="row">
+    <div class="active">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <!--项目图片-->
+        <div class="img-work">
+          <img src="img/5.jpg" class="img5">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="img-work" id="tp">
+          <img src="img/6.jpg" class="img6">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="img-work">
+          <img src="img/7.jpg" class="img7">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="img-work" id="tp">
+          <img src="img/8.jpg" class="img8">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="img-work">
+          <img src="img/9.jpg" class="img9">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="img-work" id="tp">
+          <img src="img/10.jpg" class="img10">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--爱好信息填写表-->
+<section id="contact" class="contact section">
+<div class="container">
+<div class="row">
+<div class="contact-head">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="contact-left">
+                        <h3>Cheese Matcha<span> &nbsp;hobby</span></h3>
+                            <p class="p1">欧洲Kerry集团利用自身技术，将芝士和抹茶融合在一起，抹茶的细腻和芝士的醇厚，完美结合，同时运用了独一无二的FMT（香精调味技术），运用天然香精，将产品的风味做了进一步提升。你是喜欢芝士还是抹茶呢？
+                            <br>无论你是抹茶控，还是芝士控，有一种美味是我们绝对无法拒绝的，这就是抹茶芝士味。</p>
+                    </div>
+                </div>
+    <div class="col-md-8 col-sm-8 col-xs-12">
+        <div class="contact-right">
+            <div class="row">
+                <form class="form" action="#">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="your name">
+                        </div>
+                    <div class="form-group">
+                            <input type="email" name="email" placeholder="enter your email">
+                    </div>
+                    <div class="button">
+                        <button type="submit" class="btn-sub">submit<i aria-hidden="true"></i></button>
+                    </div>
+                    </div>
+                <div class="col-md-6">
+                    <div class="group">
+                        <textarea name="message" placeholder="Introduce your hobbies and give suggestions"></textarea>
+                            </div>
+                </div>
+                </form>
+            </div>
+<!--信息填写表End-->
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+<footer>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <div class="copyright-content">
+                        <p>copyright © zt 2018</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/img-work.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+</html>
